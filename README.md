@@ -1,11 +1,12 @@
 # Shooter  
 ### Engineering-Grade Manual Sector & Site Geometry Tool for QGIS
 
+![Release](https://img.shields.io/github/v/release/erlrich/Shooter)
+![License](https://img.shields.io/github/license/erlrich/Shooter)
+
 Shooter is a professional QGIS plugin designed for RF engineers, telecom planners, and GIS analysts who require structured manual sector and site creation within controlled spatial workflows.
 
-Unlike generic drawing tools, Shooter provides engineering-aware geometry handling for sector creation, azimuth control, and multi-sector site structuring.
-
-Released under the GNU General Public License v3.0.
+Unlike generic drawing utilities, Shooter enforces engineering-aware geometry handling for deterministic sector construction, azimuth control, and structured site configuration.
 
 ---
 
@@ -69,25 +70,6 @@ Automatically generate a structured 3-sector configuration with controlled spaci
 
 ![Add Site](docs/screenshots/shooter_add_site.png)
 
----
-### 1️⃣ Add Site
-
-Create a new RF site location with controlled layer handling.
-
----
-
-### 2️⃣ Add Sector
-
-Generate sector geometry with defined azimuth orientation.
-
-Supports:
-- Single sector creation
-- Multi-sector (3-sector) configuration
----
-
-### 3️⃣ Edit & Adjust
-
-Modify azimuth direction and sector geometry while maintaining structural integrity.
 
 ---
 
@@ -126,16 +108,18 @@ Shooter is engineered to operate reliably inside professional telecom planning e
 
 ---
 
-
----
-
 ## ⚠️ Disclaimer
 
 This plugin supports engineering workflows and should be used within professional RF planning and spatial analysis contexts.
+
 ---
-This project is released under the GNU General Public License v3.0 or later.
 
 ## ⚖️ License
+
+This project is released under the GNU General Public License v3.0 or later.
+See the LICENSE file for full details.
+
+---
 
 ## 👨‍💻 Author
 
