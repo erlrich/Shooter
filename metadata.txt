@@ -1,7 +1,7 @@
 [general]
 name=Shooter
 qgisMinimumVersion=3.22
-version=1.0.3
+version=1.0.0
 author=Achmad Amrulloh
 email=achmad.amrulloh@gmail.com
 license=GPL-3.0
