@@ -39,8 +39,37 @@ The plugin is built to behave as a stable engineering utility — not an experim
 
 ## 📸 Workflow Overview
 
-Shooter operates in a structured workflow:
+The plugin operates in a structured three-step workflow:
 
+---
+
+### 1️⃣ Add Mode Selection
+
+Choose whether to create a manual sector or generate a structured 3-sector site.
+
+![Add Mode](docs/screenshots/shooter_add_mode.png)
+
+---
+
+### 2️⃣ Manual Sector Creation
+
+Drag-based azimuth definition with controlled orientation logic.
+
+- Real-time azimuth display
+- Radius visualization
+- Snap control support
+
+![Add Sector](docs/screenshots/shooter_add_sector.png)
+
+---
+
+### 3️⃣ 3-Sector Site Generation
+
+Automatically generate a structured 3-sector configuration with controlled spacing and orientation.
+
+![Add Site](docs/screenshots/shooter_add_site.png)
+
+---
 ### 1️⃣ Add Site
 
 Create a new RF site location with controlled layer handling.
@@ -54,7 +83,6 @@ Generate sector geometry with defined azimuth orientation.
 Supports:
 - Single sector creation
 - Multi-sector (3-sector) configuration
-
 ---
 
 ### 3️⃣ Edit & Adjust
