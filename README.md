@@ -133,7 +133,7 @@ Shooter is engineered to operate reliably inside professional telecom planning e
 
 This plugin supports engineering workflows and should be used within professional RF planning and spatial analysis contexts.
 ---
-This project is released under the GNU General Public License v3.0.
+This project is released under the GNU General Public License v3.0 or later.
 
 ## ⚖️ License
 
