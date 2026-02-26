@@ -1,5 +1,5 @@
 # Shooter  
-### Engineering-Grade Sector Geometry & RF Planning Toolkit for QGIS
+### Engineering-Grade Manual Sector & Site Geometry Tool for QGIS
 
 Shooter is a professional QGIS plugin designed for RF engineers, telecom planners, and GIS analysts who require structured manual sector and site creation within controlled spatial workflows.
 
