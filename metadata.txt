@@ -1,0 +1,20 @@
+[general]
+name=SHOOTER - Manual Add Sector Tool
+qgisMinimumVersion=3.22
+version=1.0.3
+author=Achmad Amrulloh
+email=achmad.amrulloh@gmail.com
+license=MIT
+description=Manual Add Sector and Add Site tool for RF / NPI planning. Supports sector and 3-sector site creation with editable azimuth, radius, and beamwidth.
+about=SHOOTER is a lightweight RF planning helper for manual sector and site proposal workflows. Provides drag-based sector drawing, auto 3-sector site generation, and full edit capabilities.
+category=Planning
+icon=Icon/shooter.png
+tracker=
+repository=
+homepage=
+
+[experimental]
+experimental=False
+
+[deprecated]
+deprecated=False

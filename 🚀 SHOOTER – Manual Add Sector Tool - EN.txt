@@ -1,0 +1,141 @@
+📘 🚀 SHOOTER – Manual Add Sector Tool (EN) – v1.0.3
+🔹 New in v1.0.3
+
+Supports two modes:
+	• Add Sector (manual drag)
+	• Add Site (automatic 3-sector site: 0° / 120° / 240°)
+
+Output layers:
+	• SHOOTER_ADD_SECTOR
+	• SHOOTER_ADD_SITE
+
+All layers are grouped under SHOOTER
+Group SHOOTER is always created at the top of the layer panel
+Right-click context menu works on both sector and site features
+
+Layers are always editable (design tool mode).
+
+📍 Output Layers
+Group : SHOOTER
+Layers :
+	• SHOOTER_ADD_SECTOR (manual sector)
+	• SHOOTER_ADD_SITE (3-sector site)
+
+Geometry : Polygon
+CRS : Follows QGIS project CRS
+
+📌 Description
+SHOOTER is a QGIS plugin designed for manual add sector recommendation in RF / NPI / GIS planning workflows.
+It allows RF engineers to interactively draw BTS sectors based on:
+	• Center point
+	• Azimuth
+	• Radius
+	• Beamwidth
+
+🧰 Key Features
+
+Manual sector drawing (pie / wedge polygon)
+Realtime preview while dragging (azimuth & radius)
+
+Azimuth snapping:
+	• Ctrl → snap 5°
+	• Ctrl + Shift → snap 10°
+Sector editing:
+	• Azimuth
+	• Radius
+	• Beamwidth
+Center editing:
+	• Pick from map
+	• Edit longitude & latitude
+
+Rename sector
+Toggle label ON / OFF
+Styling via native QGIS Layer Properties
+Remove sector
+Multi-delete using selection tool
+
+⚙️ Settings (v1.0.3)
+SHOOTER includes global default configuration.
+Accessible via:
+	• Plugins → Shooter → Settings
+	• Right-click → Settings
+
+Available options:
+
+• Default Sector Radius
+	• Use drag result
+	• Or fixed radius value
+
+• Default Beamwidth
+• Default Site Radius
+• Default Line Color
+• Default Line Width
+
+Changes apply to newly created sectors and sites.
+
+🖱️ How to Use
+1️. Activate Tool
+Click Shooter icon on QGIS toolbar.
+Choose mode:
+	• Add Sector
+	• Add Site
+
+2️. Add Sector (Manual)
+	1. Click on map → set center
+	2. Drag mouse to define azimuth & radius
+	3. Release mouse → sector is created
+
+Realtime preview shows:
+AZ : xxx°
+R : xxx m
+
+3️. Azimuth Snapping
+	• Hold Ctrl → snap by 5°
+	• Hold Ctrl + Shift → snap by 10°
+
+4️. Add Site (Automatic 3 Sectors)
+Click on map → automatically creates 3 sectors:
+	• 0°
+	• 120°
+	• 240°
+
+Radius & beamwidth follow Settings.
+
+5️. Context Menu (Right Click)
+
+Edit Attributes
+Move Center
+Edit Coordinates
+Set Color
+Rename Sector
+Toggle Label
+Remove Feature
+Settings
+
+6️. Multi Delete
+
+SHOOTER layers are always editable.
+To delete multiple sectors:
+	• Use native QGIS Selection Tool
+	• Select multiple features
+	• Press Delete key
+
+🎨 Styling
+
+Use Layer Properties:
+	• Labels tab → font, size, color, buffer
+	• Symbology tab → line color & width
+
+Styling is layer-based.
+
+⚙️ Technical Notes
+	• Layers always editable (design tool behavior)
+	• Compatible with QGIS 3.22+
+	• Tested on QGIS 3.40 Bratislava
+
+👤 Author
+
+Achmad Amrulloh
+LinkedIn: https://www.linkedin.com/in/achmad-amrulloh/
+
+© 2026 Dinzo. All rights reserved.
